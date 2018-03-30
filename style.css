@@ -1,0 +1,75 @@
+#green {
+    width: 100%;
+    height: 150px;
+    background-color: green;
+}
+
+div {
+    margin: 10px 10px;
+}
+
+#blue {
+    background-color: blue;
+    height: 500px;
+    display: inline-block;
+}  
+#red {
+    background-color: red;
+    height: 800px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+}
+.yellow {
+    background-color: yellow;
+    height: 200px;
+    display: inline-block;
+}
+#purple {
+    background-color: darkslateblue;
+    height: 200px;
+}
+@media only screen and (max-width: 480px){
+    #blue {
+        display: none;
+    }
+    .sm-4 {
+        width: 95%;
+        height: 150px;
+    }
+    #red {
+        width: 100%;
+    }
+    #purple {
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 481px){
+    #blue {
+        display: none;
+    }
+    #red {
+        width: 100%;
+    }
+    .md-2 {
+        width: 45%;
+    }
+    
+}
+@media only screen and (min-width: 1024px){
+    #blue {
+        width: 25%;
+        display: inline-block;
+    }
+    #red {
+        display: inline-block;
+        width: 71%;
+        margin-right: 0;
+    }
+    .lg-1 {
+        width: 30%;
+    }
+    #purple {
+        width: 96%;
+    }
+}
